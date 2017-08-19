@@ -1,0 +1,23 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "Ink",
+	"Description": "Port from the Unity ink integration (https://github.com/inkle/ink-unity-integration) for Unreal Engine 4.",
+	"Category": "fivefingergames",
+	"CreatedBy": "fivefingergames",
+	"CreatedByURL": "https://fivefingergames.com",
+	"DocsURL": "https://fivefingergames.com/ink_ue4_integration",
+	"MarketplaceURL": "",
+	"SupportURL": "support@fivefingergames.com",
+	"CanContainContent": false,
+	"IsBetaVersion": true,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "ink_UE4_integration",
+			"Type": "Developer",
+			"LoadingPhase": "Default"
+		}
+	]
+}
