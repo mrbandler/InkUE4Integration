@@ -1,16 +1,16 @@
-// Copyright 1998-2017 Epic Games, Inc. All Rights Reserved.
+// Copyright 1998-2018 Epic Games, Inc. All Rights Reserved.
 
 using UnrealBuildTool;
 
-public class ink_UE4_integration : ModuleRules
+public class inkUE4Integration : ModuleRules
 {
-	public ink_UE4_integration(ReadOnlyTargetRules Target) : base(Target)
+	public inkUE4Integration(ReadOnlyTargetRules Target) : base(Target)
 	{
 		PCHUsage = ModuleRules.PCHUsageMode.UseExplicitOrSharedPCHs;
 		
 		PublicIncludePaths.AddRange(
 			new string[] {
-				"ink_UE4_integration/Public"
+				"inkUE4Integration/Public"
 				// ... add public include paths required here ...
 			}
 			);
@@ -18,7 +18,7 @@ public class ink_UE4_integration : ModuleRules
 		
 		PrivateIncludePaths.AddRange(
 			new string[] {
-				"ink_UE4_integration/Private",
+				"inkUE4Integration/Private",
 				// ... add other private include paths required here ...
 			}
 			);
