@@ -5,7 +5,7 @@
 #include "CoreMinimal.h"
 #include "ModuleManager.h"
 
-class FinkUE4IntegrationModule : public IModuleInterface
+class FInkModule : public IModuleInterface
 {
 public:
 

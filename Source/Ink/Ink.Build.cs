@@ -2,15 +2,15 @@
 
 using UnrealBuildTool;
 
-public class inkUE4Integration : ModuleRules
+public class Ink : ModuleRules
 {
-	public inkUE4Integration(ReadOnlyTargetRules Target) : base(Target)
+	public Ink(ReadOnlyTargetRules Target) : base(Target)
 	{
 		PCHUsage = ModuleRules.PCHUsageMode.UseExplicitOrSharedPCHs;
 		
 		PublicIncludePaths.AddRange(
 			new string[] {
-				"inkUE4Integration/Public"
+				"Ink/Public"
 				// ... add public include paths required here ...
 			}
 			);
@@ -18,7 +18,7 @@ public class inkUE4Integration : ModuleRules
 		
 		PrivateIncludePaths.AddRange(
 			new string[] {
-				"inkUE4Integration/Private",
+				"Ink/Private",
 				// ... add other private include paths required here ...
 			}
 			);

@@ -1,23 +1,36 @@
 {
-	"FileVersion": 3,
-	"Version": 1,
-	"VersionName": "1.0",
-	"FriendlyName": "inkUE4Integration",
-	"Description": "Port from the Unity ink integration (https://github.com/inkle/ink-unity-integration) for Unreal Engine 4.",
-	"Category": "Scripting",
-	"CreatedBy": "fivefingergames",
-	"CreatedByURL": "https://fivefingergames.com",
-	"DocsURL": "https://github.com/mrbandler/ink-ue4-integration/wiki",
-	"MarketplaceURL": "",
-	"SupportURL": "support@fivefingergames.com",
-	"CanContainContent": true,
-	"IsBetaVersion": true,
-	"Installed": false,
-	"Modules": [
-		{
-			"Name": "inkUE4Integration",
-			"Type": "Developer",
-			"LoadingPhase": "Default"
-		}
-	]
+  "FileVersion": 3,
+  "Version": 1,
+  "VersionName": "1.0.0",
+  "FriendlyName": "Ink",
+  "Description": "Port from the Unity ink integration (https://github.com/inkle/ink-unity-integration) for Unreal Engine 4.",
+  "Category": "Scripting",
+  "CreatedBy": "fivefingergames",
+  "CreatedByURL": "https://fivefingergames.com",
+  "DocsURL": "https://github.com/mrbandler/InkUE4Integration/wiki",
+  "MarketplaceURL": "",
+  "SupportURL": "support@fivefingergames.com",
+  "CanContainContent": true,
+  "IsBetaVersion": true,
+  "Installed": false,
+  "Modules": [
+    {
+      "Name": "Ink",
+      "Type": "Runtime",
+      "LoadingPhase": "Default",
+      "WhitelistPlatforms": [
+        "Win64",
+        "Win32"
+      ]
+    },
+    {
+      "Name": "InkEditor",
+      "Type": "Editor",
+      "LoadingPhase": "Default",
+      "WhitelistPlatforms": [
+        "Win64",
+        "Win32"
+      ]
+    }
+  ]
 }
