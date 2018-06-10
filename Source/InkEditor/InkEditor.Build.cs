@@ -1,4 +1,4 @@
-// Copyright 1998-2018 Epic Games, Inc. All Rights Reserved.
+// Copyright (c) 2018 fivefingergames.
 
 using UnrealBuildTool;
 
@@ -28,6 +28,8 @@ public class InkEditor : ModuleRules
 			new string[]
 			{
 				"Core",
+				"UnrealEd",
+				"Ink"
 				// ... add other public dependencies that you statically link with here ...
 			}
 			);
@@ -40,6 +42,7 @@ public class InkEditor : ModuleRules
 				"Engine",
 				"Slate",
 				"SlateCore",
+                "Projects"
 				// ... add private dependencies that you statically link with here ...	
 			}
 			);
