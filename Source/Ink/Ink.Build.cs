@@ -10,7 +10,7 @@ public class Ink : ModuleRules
 		
 		PublicIncludePaths.AddRange(
 			new string[] {
-				"Ink/Public"
+			
 				// ... add public include paths required here ...
 			}
 			);
@@ -18,7 +18,7 @@ public class Ink : ModuleRules
 		
 		PrivateIncludePaths.AddRange(
 			new string[] {
-				"Ink/Private"
+				
 				// ... add other private include paths required here ...
 			}
 			);

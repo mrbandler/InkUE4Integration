@@ -6,11 +6,11 @@ public class InkEditor : ModuleRules
 {
 	public InkEditor(ReadOnlyTargetRules Target) : base(Target)
 	{
-		PCHUsage = ModuleRules.PCHUsageMode.UseExplicitOrSharedPCHs;
-		
-		PublicIncludePaths.AddRange(
+        PCHUsage = ModuleRules.PCHUsageMode.UseExplicitOrSharedPCHs;
+
+        PublicIncludePaths.AddRange(
 			new string[] {
-				"InkEditor/Public"
+				
 				// ... add public include paths required here ...
 			}
 			);
@@ -18,7 +18,7 @@ public class InkEditor : ModuleRules
 		
 		PrivateIncludePaths.AddRange(
 			new string[] {
-				"InkEditor/Private",
+				
 				// ... add other private include paths required here ...
 			}
 			);
