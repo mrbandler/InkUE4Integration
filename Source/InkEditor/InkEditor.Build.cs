@@ -1,16 +1,16 @@
-// Copyright 1998-2018 Epic Games, Inc. All Rights Reserved.
+// Copyright (c) 2018 fivefingergames.
 
 using UnrealBuildTool;
 
-public class inkUE4Integration : ModuleRules
+public class InkEditor : ModuleRules
 {
-	public inkUE4Integration(ReadOnlyTargetRules Target) : base(Target)
+	public InkEditor(ReadOnlyTargetRules Target) : base(Target)
 	{
-		PCHUsage = ModuleRules.PCHUsageMode.UseExplicitOrSharedPCHs;
-		
-		PublicIncludePaths.AddRange(
+        PCHUsage = ModuleRules.PCHUsageMode.UseExplicitOrSharedPCHs;
+
+        PublicIncludePaths.AddRange(
 			new string[] {
-				"inkUE4Integration/Public"
+				
 				// ... add public include paths required here ...
 			}
 			);
@@ -18,7 +18,7 @@ public class inkUE4Integration : ModuleRules
 		
 		PrivateIncludePaths.AddRange(
 			new string[] {
-				"inkUE4Integration/Private",
+				
 				// ... add other private include paths required here ...
 			}
 			);
@@ -28,6 +28,8 @@ public class inkUE4Integration : ModuleRules
 			new string[]
 			{
 				"Core",
+				"UnrealEd",
+				"Ink"
 				// ... add other public dependencies that you statically link with here ...
 			}
 			);
@@ -40,6 +42,7 @@ public class inkUE4Integration : ModuleRules
 				"Engine",
 				"Slate",
 				"SlateCore",
+                "Projects"
 				// ... add private dependencies that you statically link with here ...	
 			}
 			);

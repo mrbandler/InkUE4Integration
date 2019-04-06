@@ -1,11 +1,11 @@
-// Copyright 1998-2018 Epic Games, Inc. All Rights Reserved.
+// Copyright (c) 2018 fivefingergames.
 
 #pragma once
 
 #include "CoreMinimal.h"
 #include "ModuleManager.h"
 
-class FinkUE4IntegrationModule : public IModuleInterface
+class FInkModule : public IModuleInterface
 {
 public:
 
